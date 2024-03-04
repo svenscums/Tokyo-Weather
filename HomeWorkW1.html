@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Japan Weather</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        margin: auto;
+        padding: auto;
+      }
+      h2 span,
+      ul lu span {
+        margin-right: 5px;
+        margin-top: 0px;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+      }
+
+      li {
+        list-style: none;
+        margin: 0 auto;
+        text-align: center;
+        padding: 15px 0;
+        border-radius: 6px;
+        max-width: 400px;
+        transition: all 200ms ease-in-out;
+      }
+
+      li:hover {
+        background: rgb(255, 255, 223);
+      }
+      h1 {
+        color: #465af2;
+        font-size: 28px;
+        line-height: 48px;
+      }
+
+      h3 {
+        font-size: 15px;
+      }
+      .bold23,
+      .bold22,
+      .bold17,
+      .bold28 {
+        font-weight: bold;
+      }
+      .normal13,
+      .normal10,
+      .normal15,
+      .normal25 {
+        font-weight: normal;
+      }
+      p {
+        font-weight: 565;
+        text-align: center;
+        font-family: "Courier New", Courier, monospace;
+        color: #7f7d7d;
+      }
+      button {
+        color: white;
+        display: block;
+        text-align: center;
+        padding: 15px 20px 15px 20px;
+        font-size: 16px;
+        font-weight: 500;
+        background: blue;
+        margin: 30px auto;
+        border: 1px solid #432ff5;
+        border-radius: 50px;
+        box-shadow: 0 4px 8px 2px rgba(176, 173, 173, 0.4);
+        transition: all 200ms ease-in-out;
+      }
+      button:hover {
+        background: #9c1313;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+      }
+      .highlightback {
+        background-color: rgb(250, 246, 215);
+        transition: 0.2s ease-in-out;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      🌤️ <br />
+      Currently 21 in Tokyo
+    </h1>
+    <h2>
+      <span class="normal13">13&deg; /</span>
+      <span class="bold23">23&deg;</span>
+    </h2>
+    <ul>
+      <li>
+        <h3>🌧️ Tomorrow</h3>
+
+        <span class="normal10">10&deg; / </span>
+        <span class="bold22">22&deg;</span>
+        <span class="highlight-1"> </span>
+      </li>
+      <li>
+        <div>
+          <span class="highlightback"></span>
+          <h3>🌥️ Saturday</h3>
+          <h3>
+            <span class="normal15">15&deg; / </span>
+            <span class="bold17">17&deg;</span>
+          </h3>
+        </div>
+      </li>
+      <li>
+        <h3>☀️ Sunday</h3>
+        <h3>
+          <span class="normal25">25&deg; / </span>
+          <span class="bold28">28&deg;</span>
+          <span class="highlight-3"></span>
+        </h3>
+      </li>
+    </ul>
+    <button>Change City</button>
+    <p>Coded by Lauren H Hernandez</p>
+  </body>
+</html>
